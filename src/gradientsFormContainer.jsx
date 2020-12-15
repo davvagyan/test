@@ -29,7 +29,6 @@ const GradientForm = props =>{
   
   const GradientInput = props=>{
     const submit = formData=>{
-      console.log(formData)
       props.addGradientAC(formData.color1)
       props.addGradientAC(formData.color2)
     }

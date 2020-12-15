@@ -27,7 +27,6 @@ let lettersreg = /[g-zG-Z]/;
 export const letters = value => {
     let check = value.match(lettersreg)
     if(check){
-        console.log(check)
         return 'enter letters from a-f'
     }else{
         return undefined

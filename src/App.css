@@ -1,0 +1,11 @@
+
+.AppWrapper{
+  width: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-rows:100% ;
+}
+.GradientContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
